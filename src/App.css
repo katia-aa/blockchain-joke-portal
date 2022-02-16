@@ -1,0 +1,69 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 26px;
+  /* The image is from from Freepik. */
+  background-image: url("../89114.jpg"); 
+  height: 100vh;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  background: #ebe8e899;
+  border-radius: 10px;
+  padding: 46px 20px;
+  border: 5px solid;
+  position: relative;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color:black;
+  margin-top: 16px;
+  padding: 5px 26px;
+}
+
+.connectButton {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  border: 2px solid;
+  box-shadow: 0 10px 20px -10px #9d8eee;
+  border-radius: 4px;
+}
+
+.waveButton {
+  border: none;
+    position: relative;
+    padding: 12px 20px;
+    border-radius: 999px;
+    width: fit-content;
+    margin: 20px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #ffffff;
+    box-shadow: 0 10px 20px -10px #9d8eee;
+    background: linear-gradient(
+135deg, #CB5EEE 0%, #4BE1EC 100%);
+}
+
+.message {
+  background: white;
+  padding: 20px;
+  max-width: 160px;
+  border-radius: 4px;
+  margin: 18px auto 0;
+  white-space: pre-wrap;
+}
